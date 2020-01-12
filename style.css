@@ -24,9 +24,6 @@ body {
   font-size: 13px;
   line-height: normal;
 }
-.main-header li a{
-
-}
 
 .main-header .signin {
   border: 1px solid;
@@ -60,17 +57,20 @@ body {
   
     border-radius: 25px;
     border: 1px solid #C0C4C7;
-    padding: 15px; 
+    padding: 15px 15px 15px 55px; 
     width: 35%; 
     -webkit-box-shadow: -1px 2px 8px -1px rgba(192,196,199,1);
     -moz-box-shadow: -1px 2px 8px -1px rgba(192,196,199,1);
     box-shadow: -1px 2px 8px -1px rgba(192,196,199,1);
 }
+.main-content .search-area .search:focus{
+    outline: none;
+}
 
 .fa-search{
     position: absolute;
     top: 17px;
-    left: 500px;
+    left: 490px;
     color: #C0C4C7;
     font-size: 18px;
     font-weight: 300px;
